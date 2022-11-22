@@ -1,0 +1,65 @@
+header {
+    @apply w-full fixed z-40 shadow-md bg-[#003465] backdrop-blur-sm flex justify-center;
+}
+
+header .content {
+    @apply container w-full h-24 flex justify-between items-center px-10;
+}
+
+header .logo {
+    @apply h-24 overflow-hidden;
+}
+
+header img {
+    @apply h-full w-auto scale-150;
+}
+
+header nav {
+    @apply flex justify-center items-center;
+}
+
+header ul {
+    @apply flex gap-6;
+}
+
+header ul li {
+    font-family: var(--font-title);
+    @apply text-2xl font-medium flex flex-col min-w-max  text-gray-100;
+}
+
+header ul li a {
+    @apply transition-all h-full;
+}
+
+header ul li a::after {
+    content: '';
+    @apply w-0 h-[2px] bg-[#F3d944] flex transition-all;
+}
+
+header ul li a.active {
+    @apply text-[#F3d944];
+}
+
+header ul li a.active::after {
+    @apply w-full;
+}
+
+header .ModalMenu {
+    @apply flex h-full items-center gap-8;
+}
+
+header .ModalMenu .Modal {
+    @apply w-screen h-screen absolute z-40 top-0 left-0 bg-white/90;
+}
+
+header .ModalMenu .Modal ul {
+    @apply h-screen flex flex-col justify-center items-center;
+}
+
+header .ModalMenu .Open {
+    @apply cursor-pointer absolute top-7 right-7 z-50;
+}
+
+header .ModalMenu .Close {
+    @apply cursor-pointer absolute top-7 right-7 z-50;
+}

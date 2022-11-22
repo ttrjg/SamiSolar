@@ -1,0 +1,34 @@
+.background {
+    @apply bg-[#003465];
+}
+
+#SamiSolar {
+    @apply container mx-auto flex flex-col items-center;
+}
+
+#SamiSolar h2 {
+    font-family: var(--font-title);
+    @apply text-4xl tracking-wide text-center w-max px-6 bg-[#F3d944] py-2;
+}
+
+#SamiSolar .CardWrapper {
+    @apply grid  gap-10 py-10 lg:grid-cols-3 sm:grid-cols-1;
+}
+
+#SamiSolar .CardWrapper .Card {
+    @apply flex flex-col items-center justify-start gap-4 px-8 py-10 hover:scale-105 transition-all duration-200;
+}
+
+#SamiSolar .CardWrapper .Card h3 {
+    font-family: var(--font-title);
+    @apply text-3xl text-center px-4 py-1 text-white;
+}
+
+#SamiSolar .divider {
+    @apply w-full h-[2px] bg-gradient-to-l from-[#61F4DE] to-[#6E78FF];
+}
+
+#SamiSolar .CardWrapper .Card p {
+    font-family: var(--font-content);
+    @apply text-justify text-lg font-medium text-white;
+}

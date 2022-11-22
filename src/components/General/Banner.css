@@ -1,0 +1,29 @@
+#home {
+    @apply relative flex flex-col;
+}
+
+#home .img {
+    @apply w-screen h-[65vh] lg:h-[85vh] overflow-hidden;
+}
+
+#home .img img {
+    @apply w-full h-full object-cover transition-all duration-[25000ms] ease-linear;
+}
+
+#home .BannerContent {
+    @apply flex flex-col gap-8 absolute bottom-0 mb-20 z-10 mx-8 md:ml-14 lg:ml-32;
+}
+
+#home .BannerContent .adjust {
+    @apply flex flex-col w-full max-w-max;
+}
+
+#home h2 {
+    word-wrap: break-word;
+    font-family: var(--font-title);
+    @apply bg-[#F3d944] leading-none py-2 px-6 items-center md:text-[4rem]  text-3xl;
+}
+
+section#home .divider1 {
+    @apply w-full h-[2px] bg-gradient-to-l from-[#61F4DE] to-[#6E78FF];
+}

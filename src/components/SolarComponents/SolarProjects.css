@@ -1,0 +1,78 @@
+#SolarProjects {
+    @apply container flex flex-col mx-auto px-4 gap-10;
+}
+#SolarProjects div.projectsHeader {
+    @apply flex flex-col justify-center items-center gap-6;
+}
+
+#SolarProjects h2 {
+    font-family: var(--font-title);
+    @apply text-4xl text-[#0083FF];
+}
+
+section#SolarProjects div.projectsHeader p {
+    font-family: var(--font-content);
+    @apply text-2xl text-center font-medium bg-[#003156] text-white py-2 px-4;
+}
+
+#SolarProjects .CardsWrapper {
+    @apply grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 place-items-center gap-8;
+}
+
+#SolarProjects .CardsWrapper .card {
+    @apply h-[26rem] w-[26rem] hover:scale-105 transition-all duration-200;
+}
+
+#SolarProjects .CardsWrapper .card .PosiDivider {
+    @apply h-[26rem] flex flex-col justify-center items-center text-center shadow-lg;
+}
+
+#SolarProjects .card.project1 {
+    @apply bg-project1 bg-cover;
+}
+
+#SolarProjects .card.project2 {
+    @apply bg-project2 bg-cover;
+}
+
+#SolarProjects .card.project3 {
+    @apply bg-project3 bg-cover;
+}
+
+#SolarProjects .card.project4 {
+    @apply bg-project4 bg-cover bg-right;
+}
+
+#SolarProjects .card.project5 {
+    @apply bg-project5 bg-cover bg-right;
+}
+
+#SolarProjects .card.project6 {
+    @apply bg-project6 bg-cover bg-right;
+}
+
+#SolarProjects .card.project7 {
+    @apply bg-project7 bg-cover bg-right;
+}
+
+#SolarProjects .card.project8 {
+    @apply bg-project8 bg-cover bg-right;
+}
+
+#SolarProjects .card.project9 {
+    @apply bg-project9 bg-cover bg-right;
+}
+
+#SolarProjects .CardsWrapper .card p {
+    font-family: var(--font-title);
+    @apply text-4xl text-gray-100 flex flex-col;
+}
+
+#SolarProjects .CardsWrapper .card p::after {
+    content: '';
+    @apply w-full h-[2px] bg-white;
+}
+
+section#SolarProjects .divider {
+    @apply w-full h-[3px] bg-gradient-to-l from-[#61F4DE] to-[#6E78FF];
+}

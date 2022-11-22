@@ -1,0 +1,45 @@
+section#Brands div.content {
+    @apply container mx-auto px-4 flex flex-col gap-6 justify-center items-center;
+}
+
+section#Brands h2 {
+    font-family: var(--font-title);
+    @apply text-4xl text-[#0083FF] mb-6;
+}
+
+#Brands p {
+    font-family: var(--font-content);
+    @apply text-xl text-justify font-medium;
+}
+
+#Brands .swiper {
+    @apply w-full h-[20vh];
+}
+
+#Brands .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#Brands .swiper-slide img {
+    @apply object-scale-down bg-slate-100;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: ;
+}

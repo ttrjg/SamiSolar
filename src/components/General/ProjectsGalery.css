@@ -1,0 +1,19 @@
+#ProjectsGalery {
+    @apply container flex flex-col mx-auto gap-10;
+}
+#ProjectsGalery div.projectsHeader {
+    @apply flex flex-col justify-center items-center gap-6;
+}
+
+#ProjectsGalery h2 {
+    font-family: var(--font-title);
+    @apply text-4xl text-[#0083FF];
+}
+
+#ProjectsGalery .projectsWrap {
+    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-10 justify-items-center;
+}
+
+#ProjectsGalery .projectsWrap img {
+    @apply hover:scale-110 transition-all duration-300 max-h-[448px] xl:max-h-full;
+}

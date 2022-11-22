@@ -1,0 +1,25 @@
+section#contact div.contact {
+    @apply container mx-auto flex flex-col gap-6;
+}
+
+section#contact h2 {
+    font-family: var(--font-title);
+    @apply text-4xl text-[#0083FF] text-center;
+}
+
+#contact p {
+    font-family: var(--font-content);
+    @apply text-xl text-justify font-medium;
+}
+
+#contact div.content {
+    @apply flex flex-col gap-16 mt-4 md:flex-row items-center sm:items-start;
+}
+
+#contact div.contacts {
+    @apply flex flex-col gap-8 items-center  sm:items-start;
+}
+
+#contact div.phone {
+    @apply flex gap-2 items-center font-normal;
+}

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    @apply scroll-smooth;
+}
+
+#root {
+    @apply flex w-full;
+}
+
+:root {
+    --font-title: 'Bebas Neue', cursive;
+    --font-content: 'Rajdhani', sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    @apply bg-slate-100 h-screen;
+}
+
+.button {
+    font-family: var(--font-title);
+    @apply w-max px-6 py-3 text-center text-white text-xl bg-[#25D366] rounded-lg shadow-md hover:scale-105 hover:brightness-105 transition-all flex gap-2 items-center justify-center;
+}
+
+section#home,
+section#solar-banner {
+    @apply box-border pt-0 pb-0 px-0;
+}
+
+section {
+    @apply box-border pt-10 md:pt-20 lg:pt-28 pb-10 md:pb-20 px-10;
+}
+
+#root {
+    @apply h-full;
+}
