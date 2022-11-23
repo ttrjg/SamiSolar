@@ -6,7 +6,7 @@ export function InvestSolarEnergy() {
       <section id="InvestSolarEnergy">
             <div id="title">
                <h1>Energia Solar</h1>
-               
+               <div className="divider"></div>
             </div>
             
             <h2>Porque Investir em Energia Solar?</h2>
@@ -19,7 +19,7 @@ export function InvestSolarEnergy() {
                      <div className="divider"></div> 
                   </div>
                   <p>
-                  Com até 95% de redução em sua conta, não se preocupe com aumentos nas tarifas energéticas e viabilize seus planos reduzindo os seus gastos.
+                  Diminuição de até 95% em sua fatura,podendo gerar creditos a serem abatidos em outras residencias de acordo com a usina instalada.
                   </p>
                </div>
                <div className="Card">
@@ -29,7 +29,7 @@ export function InvestSolarEnergy() {
                      <div className="divider"></div>
                   </div>
                   <p>
-                  Geração garantida por 25 anos e com baixo custo de manutenção, se torna um dos insvestimentos mais seguros.
+                  Equipamentos com garantia de 25 anos, de baixa manutenção ,com retorno do investimento em até 5 anos.
                   </p>
                </div>
                <div className="Card">
@@ -39,7 +39,7 @@ export function InvestSolarEnergy() {
                      <div className="divider"></div>
                   </div>
                   <p>
-                  A instalação do sistema gera imediata valorização do imóvel, em média de 10%, de acordo com a capacidade instalada.
+                  Valorização imediata do imovel de até 10%, além de colaborar com a sustentabilidade do planeta.
                   </p>
                </div>
                <div className="Card">
@@ -49,7 +49,7 @@ export function InvestSolarEnergy() {
                      <div className="divider"></div>
                   </div>
                   <p>
-                  Utilizamos equipamentos da melhor qualidade, assim garantindo a confiabilidade de seu sistema, sem manutenções exaustivas, apenas uma limpeza periódica!
+                  Sendo um sistema auto sustentavel, os geradores solares possuem módulos fotovoltaicos com baixicima manutenção , onde a própria chuva é a responsavel por sua limpeza
                   </p>
                </div>
 

@@ -8,7 +8,7 @@
 
 #SamiSolar h2 {
     font-family: var(--font-title);
-    @apply text-4xl tracking-wide text-center w-max px-6 bg-[#F3d944] py-2;
+    @apply text-4xl tracking-wide text-center w-max px-6 bg-[#aad3ff] py-2;
 }
 
 #SamiSolar .CardWrapper {

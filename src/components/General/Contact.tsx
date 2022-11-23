@@ -12,7 +12,7 @@ export function Contact(){
 
                <div className="contacts"> 
                   <p>
-                     Entre em contato com a Sucesso ISP, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.
+                     Entre em contato com a Sami Solar, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.
                   </p>
 
                   

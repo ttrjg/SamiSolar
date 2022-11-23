@@ -13,6 +13,7 @@ export default defineConfig({
           dest: './src',
        },
       ],
-    })
+    }
+   )
   ],
 })

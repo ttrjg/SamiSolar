@@ -21,8 +21,8 @@ export function SolarEnergy() {
    return (
     <div>
          <Banner 
-            img="/src/assets/Banners/SolarBanner3.jpg"
-            content="ESTEJA PRONTO PARA o futuro"
+            
+            content="Estamos transformando o futuro"
          />
          <InvestSolarEnergy />
          <WhyIsp />

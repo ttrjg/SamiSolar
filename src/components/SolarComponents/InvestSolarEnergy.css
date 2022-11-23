@@ -8,7 +8,7 @@
 
 #InvestSolarEnergy h1 {
     font-family: var(--font-title);
-    @apply text-5xl tracking-wide text-center bg-[#F3d944] px-4 py-1;
+    @apply text-5xl tracking-wide text-center bg-[#aad3ff] px-4 py-1;
 }
 
 #InvestSolarEnergy h2 {
@@ -26,7 +26,7 @@
 
 #InvestSolarEnergy .CardWrapper .Card h3 {
     font-family: var(--font-title);
-    @apply text-2xl text-center bg-[#F3d944] px-4 py-1;
+    @apply text-2xl text-center bg-[#aad3ff] px-4 py-1;
 }
 
 #InvestSolarEnergy .divider {

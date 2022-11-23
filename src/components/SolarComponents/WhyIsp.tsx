@@ -29,7 +29,7 @@ export function WhyIsp() {
                      
                   </div>               
                   <p>
-                  Utilizamos as marcas mais conceituadas no mercado, além de técnicos altamente treinados, para garantir a estabilidade e segurança de cada sistema e pessoa envolvida.
+                  Dimencionamento de acordo com a nessecidade de cada cliente visando economia e comodidade. Projetos elaborados por uma equipe com 5 anos de atuação no mercado,seguindo todas as normas da concessionaria
                   </p>
                </div>
                <div className="Card">

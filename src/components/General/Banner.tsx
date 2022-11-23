@@ -1,10 +1,10 @@
 import { WhatsappLogo } from "phosphor-react"
-
+import banner from "../../assets/Banners/SolarBanner.png"
 
 import './Banner.css'
 
 interface getData {
-   img: string
+   
    content: string,
 }
 
@@ -22,7 +22,7 @@ export function Banner(props: getData) {
       <section id="home">
 
          <div className="img">           
-            <img src={props.img} alt="" id="banner" className="" />   
+            <img src={banner} alt="" id="banner" className="" />   
          </div>
 
          <div className="container">
