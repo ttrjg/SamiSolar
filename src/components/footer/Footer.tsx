@@ -4,7 +4,7 @@ import logoWhite from "../../assets/logo.png"
 
 import './Footer.css'
 
-export function Footer(){
+export function Footer() {
    return (
       <div className="footer">
 
@@ -18,10 +18,10 @@ export function Footer(){
             <h2>Siga Nosso Instagram</h2>
             <div className="Social">
                <a href="https://www.instagram.com/samisolar98/" target="_blank">
-                  <InstagramLogo size={40} color="white"/>
+                  <InstagramLogo size={40} color="white" />
                </a>
 
-            </div> 
+            </div>
          </div>
 
       </div>

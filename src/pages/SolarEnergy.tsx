@@ -22,7 +22,7 @@ export function SolarEnergy() {
     <div>
          <Banner 
             
-            content="Estamos transformando o futuro"
+            content="Transformando o futuro"
          />
          <InvestSolarEnergy />
          <WhyIsp />

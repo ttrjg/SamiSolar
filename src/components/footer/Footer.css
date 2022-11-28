@@ -1,5 +1,5 @@
 div.footer {
-    @apply w-full mx-auto py-10 flex justify-center items-center bg-[#003465] bottom-0;
+    @apply w-full mx-auto py-10 flex flex-col-reverse gap-6 sm:gap-0 sm:flex-row justify-center items-center bg-[#003465] bottom-0;
 }
 
 div.footer h2 {
@@ -9,15 +9,15 @@ div.footer h2 {
 
 div.footer p {
     font-family: var(--font-content);
-    @apply text-xl font-medium text-white;
+    @apply text-xl font-medium text-white text-center;
 }
 
 .footer div.logo {
-    @apply w-full h-full flex flex-col items-center;
+    @apply w-full h-full flex flex-col  items-center;
 }
 
 .footer div.logo img {
-    @apply h-44 w-auto scale-150;
+    @apply h-44 w-auto min-w-max md:scale-110 scale-[0.9];
 }
 
 .footer div.Socials {
